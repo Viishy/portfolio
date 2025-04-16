@@ -1052,7 +1052,7 @@
         } else {
             console.error("Typed.js target element '#element' not found.");
         }
-   // Accordion/Toggle Functionality
+        // Accordion/Toggle Functionality
         function setupAccordionToggle() {
             const accordionItems = document.querySelectorAll('.work-item');
             if (!accordionItems.length) { return; }
@@ -1114,37 +1114,32 @@
             setupAccordionToggle();
             setupScrollAnimation(); // Initialize scroll animation
         });
-<<<<<<< HEAD
-  </script>
-=======
     </script>
-   <script>
-    const form = document.querySelector("form");
+    =======
+    </script>
+    <script>
+        const form = document.querySelector("form");
 
-    form.addEventListener("submit", (e) => {
-        e.preventDefault(); // Stop default form action
+        form.addEventListener("submit", (e) => {
+            e.preventDefault(); // Stop default form action
 
-        const data = new FormData(form);
+            const data = new FormData(form);
 
-        fetch(form.action, {
-            method: "POST",
-            body: data,
-            mode: "no-cors"  // This prevents the browser from blocking it
-        })
-        .then(() => {
-            alert("✅ Message sent successfully!");
-            form.reset(); // Clear the form fields
-        })
-        .catch((error) => {
-            console.error("Submission error:", error);
-            alert("❌ Something went wrong, but your message may have still been sent.");
+            fetch(form.action, {
+                method: "POST",
+                body: data,
+                mode: "no-cors"  // This prevents the browser from blocking it
+            })
+                .then(() => {
+                    alert("✅ Message sent successfully!");
+                    form.reset(); // Clear the form fields
+                })
+                .catch((error) => {
+                    console.error("Submission error:", error);
+                    alert("❌ Something went wrong, but your message may have still been sent.");
+                });
         });
-    });
-</script>
-
-    
->>>>>>> ca891e7 (added form and linked to Google sheet)
-
+    </script>
 </body>
 
 </html>
