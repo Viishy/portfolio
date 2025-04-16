@@ -1,6 +1,6 @@
 # Vishnu's Portfolio Website
 
-This is my personal profile website built using HTML and hosted for free using GitHub Pages.
+This is my personal profile website hosted for free using GitHub Pages.
 
 🔗 Live Site: https://viishy.github.io/portfolio/
 
