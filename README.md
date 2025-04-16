@@ -7,6 +7,7 @@ This is my personal profile website built using HTML and hosted for free using G
 ## 🔧 Tech Stack
 - HTML5
 - CSS3
+- Javascript
 - GitHub Pages
 
 ## ✨ About Me
