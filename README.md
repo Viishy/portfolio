@@ -2,7 +2,7 @@
 
 This is my personal profile website built using HTML and hosted for free using GitHub Pages.
 
-🔗 Live Site: 
+🔗 Live Site: https://viishy.github.io/portfolio/
 
 ## 🔧 Tech Stack
 - HTML5
